@@ -8,3 +8,119 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+@media (max-width: 760px) {
+    body {
+        background: #540B51;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 5vw;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 4.5em;
+        padding: 5vw;
+        margin: 0px;
+        color: white;
+    }
+
+    .p-header {
+        font-size: 1.75em;
+        text-align: center;
+        margin: 0px;
+        color: white;
+        padding: 0vw 5vw 5vw;
+    }
+
+    .orange {
+        color: orange;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .icon-size {
+        width: 25%;
+    }
+
+    .center-navicons {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 20%;
+    }
+
+    .center {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        border: none;
+        background-color: #540B51;
+    }
+
+    .sign-button {
+        background-color: gainsboro;
+        color: #540B51;
+        font-size: 1.75em;
+        border-radius: 10px;
+        padding: 4vw 0px;
+        margin: 0 4.5vw;
+    }
+
+    .google-button {
+        display: flex;
+        flex-direction: row;
+        justify-content:left;
+        align-items: center;
+        background-color: #4285F4;
+        color: white;
+        font-size: 1.75em;
+        border-radius: 10px;
+        margin: 4.5vw 4.5vw;
+    }
+
+    .img-logo {
+        width: 100%;
+    }
+
+    .google-logo {
+        background-color: white;
+        width: 10%;
+        border-radius: 5px;
+        margin: 1vw 12vw 1vw 1vw;
+
+    }
+
+    .extra-padding {
+        margin: 10vw 0vw;
+    }
+
+    main {
+        background: #F3EAE2;
+    }
+
+    .test {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 10%
+    }
+
+    .test1 {
+        width: 15%;
+    }
+
+}
