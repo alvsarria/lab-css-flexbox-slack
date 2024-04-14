@@ -12,6 +12,8 @@ footer links grey: #454245
 @media (max-width: 760px) {
     body {
         background: #540B51;
+        margin: 0px;
+        padding: 0px;
     }
 
     nav {
@@ -58,6 +60,7 @@ footer links grey: #454245
     .center {
         align-items: center;
         justify-content: center;
+        text-align: center;
     }
 
     .column {
@@ -82,7 +85,7 @@ footer links grey: #454245
     .google-button {
         display: flex;
         flex-direction: row;
-        justify-content:left;
+        justify-content: left;
         align-items: center;
         background-color: #4285F4;
         color: white;
@@ -100,7 +103,6 @@ footer links grey: #454245
         width: 10%;
         border-radius: 5px;
         margin: 1vw 12vw 1vw 1vw;
-
     }
 
     .extra-padding {
@@ -111,16 +113,150 @@ footer links grey: #454245
         background: #F3EAE2;
     }
 
+    .flex-rowcenter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .p-section {
+        font-size: 1.75em;
+        text-align: center;
+        margin: 0px;
+        padding: 5vw 5vw;
+
+    }
+
+    .p-section2 {
+        font-size: 1.25em;
+        text-align: center;
+        margin: 0vw 10vw 0vw 10vw;
+        padding-top: 2vw;
+        padding-bottom: 10vw;
+
+    }
+
+    .p-section3 {
+        font-size: 1em;
+        text-align: center;
+        margin: 0vw 40vw 0vw 40vw;
+        padding-bottom: 5vw;
+
+    }
+
+    .h3-section {
+        font-size: 3em;
+        text-align: center;
+        color: #540B51;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        padding: 5vw 5vw 0vw 5vw;
+        margin-bottom: 0px;
+
+    }
+
+    .white {
+        background-color: white;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+    .list-typenone {
+        list-style-type: none;
+    }
+
+    .listitem-section {
+        font-size: 3em;
+        text-align: center;
+        color: #540B51;
+        margin-bottom: 0px;
+
+    }
+
+    .nospaces {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .some-margin {
+        padding-bottom: 5vw;
+    }
+
     .test {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
         flex-wrap: wrap;
-        gap: 10%
+        justify-content: center;
+        align-items: center;
+        margin: 0 4.5vw;
+        padding-bottom: 5vw;
     }
 
     .test1 {
-        width: 15%;
+        width: fit-content;
+        padding: 2vw 2vw 2vw 2vw;
+        height: 8vw;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .background {
+        background-color: #540B51;
+    }
+
+    .h3-section2 {
+        color: white;
+        width: 75%;
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .forfree {
+        background-color: white;
+        color: #540B51;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        width: 80%;
+        font-size: 1.75em;
+        border-radius: 5px;
+    }
+
+    .talksales {
+        margin-top: 2vw;
+        margin-bottom: 5vw;
+        background-color: #540B51;
+        color: white;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        width: 80%;
+        font-size: 1.75em;
+        border-radius: 5px;
+        border: 1px solid white;
+    }
+
+    .lineheight {
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        line-height: 6vw;
+    }
+
+    .blue {
+        color: #2E71A6;
+    }
+
+    .flex-row {
+        padding: 5vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
     }
 
 }
